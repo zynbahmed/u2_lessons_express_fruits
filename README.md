@@ -13,7 +13,6 @@ It's time to get some practice setting up an express server and writing a few ro
 - `touch server.js` to create an entry point for your server
 - Run `npm init -y` to initialize your project as a `Node.js` project
 - Install express with `npm i express`
-- We'll install `nodemon` with `npm i nodemon --save-dev` to save it as a dev dependency
 - Add `start` and `dev` scripts to `package.json` that will run on your server's entry point:
 	```js
 	"scripts": {
