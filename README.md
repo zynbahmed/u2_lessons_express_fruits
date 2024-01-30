@@ -10,7 +10,7 @@ It's time to get some practice setting up an express server and writing a few ro
 
 - `Fork` and `clone` this repo
 - `cd` into the repo
-- `touch index.js` to create an entry point for your server
+- `touch server.js` to create an entry point for your server
 - Run `npm init -y` to initialize your project as a `Node.js` project
 - Install express with `npm i express`
 - We'll install `nodemon` with `npm i nodemon --save-dev` to save it as a dev dependency
