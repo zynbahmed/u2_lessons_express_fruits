@@ -37,7 +37,7 @@ Let's write the boilerplate for an express server:
 	```
 - Go ahead and define a `PORT` constant variable: 
 	```js
-	const PORT = process.env.PORT || 3001;
+	const PORT = process.env.PORT || 3000;
 	```
 - Init an `app` instance below your initial imports:
 	```js
@@ -164,7 +164,7 @@ However, you might notice that the fruit names in `fruits.js` are **Capitalized*
 ___
 ## Requirements
 - The project must be initialized with `npm init` and set up as an express app.
-- All routes should be working on http://localhost:3001/
+- All routes should be working on http://localhost:3000/
 - All routes must send the proper data specified for the route using express's request and response objects
 
 
