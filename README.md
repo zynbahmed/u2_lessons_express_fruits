@@ -16,8 +16,7 @@ It's time to get some practice setting up an express server and writing a few ro
 - Add `start` and `dev` scripts to `package.json` that will run on your server's entry point:
 	```js
 	"scripts": {
-		"start": "node index.js",
-		"dev": "nodemon index.js"
+		"start": "nodemon serverjs"
 	}
 	```
 - `touch .gitignore`
