@@ -49,7 +49,7 @@ Let's write the boilerplate for an express server:
 	app.listen(PORT, () => console.log(`Serving up delicious fruits on port ${PORT} 🍒`))
 	```
 
-Now start the server from the terminal with `npm run start`. If all goes well, you should see the message from the console log above in the console.  _Don't stop the server until you are done writing code or unless you just want to restart it._ If you save the `index.js` file the server should automatically re-load the changes and restart since we're using `nodemon` in our `start` script in `package.json`.
+Now start the server from the terminal with `npm run start`. If all goes well, you should see the message from the console log above in the console.  _Don't stop the server until you are done writing code or unless you just want to restart it._ If you save the `server.js` file the server should automatically re-load the changes and restart since we're using `nodemon` in our `start` script in `package.json`.
 
 ___
 ### Adding Basic Routes
