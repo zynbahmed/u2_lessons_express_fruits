@@ -30,6 +30,10 @@ const getNameLength = (req, res) => {
     res.json({ length });
 };
 
+const getAll = (req, res) => {
+    res.json(fruits.fruits);
+};
+
 //routes
 
 app.get('/ping', (req, res) => {
@@ -43,6 +47,8 @@ app.get('/five', getFirstFive);
 app.get('/evens/:n', getEvensUpToN);
 
 app.get('/namelength/:name', getNameLength);
+
+app.get('/fruits', getAll);
 
 
 app.listen(PORT, () => console.log(`Serving up delicious fruits on port ${PORT} 🍒`))
