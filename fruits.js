@@ -116,5 +116,12 @@ const fruits = [
         imgUrl: 'https://5.imimg.com/data5/OH/IC/MY-4090147/mature-coconut-meat-500x500.jpg'
     }
   ]
+
+const getOne = (name) => {
+    return fruits.find(fruit => fruit.name === name);
+}
   
-  module.exports = fruits
+  module.exports = {
+    fruits,
+    getOne
+  }
