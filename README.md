@@ -4,7 +4,7 @@
 
 ## Overview
 
-It's time to get some practice setting up an express server and writing a few routes.  Feel free to test these routes either with the browser's navbar, a small `node` script using `axios` or a toy react app with connected with `axios`. We'll also be working with the data array in `fruits.js` to practice our routes.
+It's time to get some practice setting up an express server and writing a few routes.  Feel free to test the routes you write with Insomnia. We'll also be working with the data array in `fruits.js` to practice our routes.
 
 ## Getting Started
 
