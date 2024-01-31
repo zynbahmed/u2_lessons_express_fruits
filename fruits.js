@@ -118,8 +118,3 @@ const fruits = [
   ]
   
   module.exports = fruits
-        imgUrl: 'https://5.imimg.com/data5/OH/IC/MY-4090147/mature-coconut-meat-500x500.jpg'
-    }
-  ]
-  
-  module.exports = fruits
