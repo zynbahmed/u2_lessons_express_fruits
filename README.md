@@ -62,7 +62,7 @@ app.get('/ping', (req, res) => {
 })
 ```
 
-- Try to test this route out by navigating to `http://localhost:3001/ping` with your web browser.
+- Try to test this route out by navigating to `http://localhost:3000/ping` with your web browser.
 - Alternatively, you could test this route by using a tool like [Insomnia](https://insomnia.rest/) to make a `GET` request to the same URL.
 
 Now that's what I call computer ping-pong! Let's create a few more routes to ping our express server with below. Before doing so, let's recall the basic syntax for an express `GET` route method made with an instance of express. In this case `app` is our express instance:
